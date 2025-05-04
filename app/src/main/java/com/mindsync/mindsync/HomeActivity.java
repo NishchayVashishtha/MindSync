@@ -38,5 +38,11 @@ public class HomeActivity extends Activity {
             Intent intent = new Intent(HomeActivity.this, RelaxationActivity.class);
             startActivity(intent);
         });
+
+        Button settingsButton = findViewById(R.id.settingsButton);
+        settingsButton.setOnClickListener(v -> {
+            startActivity(new Intent(HomeActivity.this, SettingsActivity.class));
+        });
+
     }
 }
