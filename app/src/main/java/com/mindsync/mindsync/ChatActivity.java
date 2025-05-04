@@ -8,6 +8,8 @@ public class ChatActivity extends Activity {
 
     TextView chatTextView;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
